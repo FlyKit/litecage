@@ -1,5 +1,5 @@
 <?php
-	require_once(LC_PATH.'core/class_loader.class.php');
+	require_once(LC_PATH . 'core/class_loader.class.php');
 
 	spl_autoload_register(array('class_loader', 'load'));
 
