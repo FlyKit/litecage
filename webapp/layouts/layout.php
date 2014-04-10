@@ -8,5 +8,13 @@
 </head>
 <body >
 	<?php echo $content."\n"; ?>
+<script>
+$(function() {
+	act(function(res) {
+		alert(res.message);
+	});
+	draw();
+});
+</script>
 </body>
 </html>

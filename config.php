@@ -20,6 +20,6 @@
 
 	/** database abstraction layer **/
 	function init_dal(&$reg) {
-		$reg->db = mysqli_connect('localhost', 'user', 'password', 'db');
+		//$reg->db = mysqli_connect('localhost', 'user', 'password', 'db');
 	}
 ?>
